@@ -17,7 +17,7 @@
     <div class="card" style="width: 18rem;">
   <img src="img/branche.gif" class="card-img-top card-img-vh un" alt="...">
   <div class="card-body">
-    <h5 class="card-title">Les paresseux</h5>
+    <h5 class="card-title">Les paresseux (sloth en anglais)</h5>
     <p class="card-text">Apprenez-en plus!</p>
     <a href="https://fr.wikipedia.org/wiki/Paresseux" class="btn btn-brown" target="_blank">A propos des paresseux</a>
   </div>
