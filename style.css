@@ -1,0 +1,49 @@
+body{
+  background : url(img/fond3.jpg) fixed no-repeat;
+  background-size: cover;
+
+}
+
+
+#title{
+    color: #975c0ee5;
+    background-color:#e7c68a ;
+    font-size: 3em;
+    text-align: center;
+    font-family: "Helveticat";
+    text-transform: uppercase;
+    font-weight:bold;
+    margin: 30px 20%;
+    border: solid 2px hsla(19, 69%, 50%, 0.876);
+    Animation-name : fade ;
+    Animation-delay : 0s;
+    Animation-duration : 8s;
+    Animation-iteration-count : infinite;
+}
+
+@keyframes fade {
+    From {
+      Opacity : 1;
+    }
+    To {
+      Opacity : 0;
+    }
+  }
+  
+  
+.container{
+    display: flex;
+    justify-content: left;
+}
+
+.card-title{
+color: #975c0ee5;
+}
+.card-text{
+color: #975c0ee5; 
+}
+
+a, a:active {
+    color: #975c0ee5; 
+    text-decoration: none;
+}
