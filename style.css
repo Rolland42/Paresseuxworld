@@ -14,7 +14,7 @@ body{
     text-transform: uppercase;
     font-weight:bold;
     margin: 30px 20%;
-    border: solid 2px hsla(19, 69%, 50%, 0.876);
+    border: solid 2px #975c0ee5 ;
     Animation-name : fade ;
     Animation-delay : 0s;
     Animation-duration : 8s;
