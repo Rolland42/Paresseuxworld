@@ -1,10 +1,3 @@
-body{
-  background : url(img/fond3.jpg) fixed no-repeat;
-  background-size: cover;
-
-}
-
-
 #title{
     color: #975c0ee5;
     background-color:#e7c68a ;
@@ -30,11 +23,18 @@ body{
     }
   }
   
+ .div {
+text-align: center;
+  }
+ 
+  img {
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
   
-.container{
-    display: flex;
-    justify-content: left;
-}
+
 
 .card-title{
 color: #975c0ee5;
