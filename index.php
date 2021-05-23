@@ -9,11 +9,21 @@
 </head>
 <body>
 
-<header><h1 id="title">Le monde des Paresseux</h1></header>
 
-<div>
+<aside>
+  <h1>Le monde des Paresseux</h1>
   <img src="img/logo1.jpg" alt="logo du site">
-</div>
+</aside>
+<input type="checkbox" id="menu-toggle"/>
+  <label id="trigger" for="menu-toggle"></label>
+  <label id="burger" for="menu-toggle"></label>
+  <ul id="menu">
+    <li><a href="#">Home</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Portfolio</a></li>
+    <li><a href="#">Contact</a></li>
+  </ul>
+   
 
 
 </body>
