@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
     <title>Paresseux World</title>
       <link rel="stylesheet" href="style.css">
 </head>
@@ -18,13 +19,12 @@
   <label id="trigger" for="menu-toggle"></label>
   <label id="burger" for="menu-toggle"></label>
   <ul id="menu">
-    <li><a href="#">Home</a></li>
-    <li><a href="#">About</a></li>
-    <li><a href="#">Portfolio</a></li>
-    <li><a href="#">Contact</a></li>
+    <li><a href="#">Régime </a></li>
+    <li><a href="#">Accouplement </a></li>
+    <li><a href="#">Chasser !!</a></li>
+    <li><a href="#">A propos</a></li>
   </ul>
    
-
-
+  
 </body>
 </html>

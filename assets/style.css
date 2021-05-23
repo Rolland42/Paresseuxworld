@@ -1,51 +1,3 @@
-/* #title{
-    color: #975c0ee5;
-    background-color:#e7c68a ;
-    font-size: 3em;
-    text-align: center;
-    font-family: "Helveticat";
-    text-transform: uppercase;
-    font-weight:bold;
-    margin: 30px 20%;
-    border: solid 2px #975c0ee5 ;
-    Animation-name : fade ;
-    Animation-delay : 0s;
-    Animation-duration : 8s;
-    Animation-iteration-count : infinite;
-} */
-
-/* @keyframes fade {
-    From {
-      Opacity : 1;
-    }
-    To {
-      Opacity : 0;
-    }
-  }
-  
- .div {
-text-align: center;
-  }
- 
-  img {
-    width: 200px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  
-.card-title{
-color: #975c0ee5;
-}
-.card-text{
-color: #975c0ee5; 
-}
-
-a, a:active {
-    color: #975c0ee5; 
-    text-decoration: none;
-} */
-
 @keyframes fade {
   From {
     Opacity : 1;
@@ -55,8 +7,7 @@ a, a:active {
   }
 }
 
-
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
+@import url(https://fonts.googleapis.com/css?family=Courier-new:400,700);
 
 @keyframes checked-anim {
     50% {
@@ -78,8 +29,8 @@ a, a:active {
 li, a {
     margin: 75px 0 -55px 0;
     color: #ffff;
-    font: 14pt "Roboto", sans-serif;
-    font-weight: 700;
+    font: 14pt "Courier new", sans-serif;
+    font-weight: 600;
     line-height: 1.8;
     text-decoration: none;
     text-transform: none;
@@ -88,7 +39,7 @@ li, a {
     display: none;
 }
 li {
-    width: 230px;
+    width: 200px;
     text-indent: 56px;}
 a:focus {
     display: block;
@@ -103,7 +54,7 @@ aside {
     right: 26%;
     text-align: center;
     Animation-name : fade ;
-    Animation-delay : 0s;
+    Animation-delay : 1s;
     Animation-duration : 8s;
     Animation-iteration-count : infinite;
     
@@ -190,7 +141,9 @@ html, body {
 
 
  img {
-  width: 200px;
+  width: 150px;
   display: right;
 }
+
+
  
