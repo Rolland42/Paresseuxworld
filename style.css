@@ -246,7 +246,7 @@ html, body {
     border: 1px solid #8c6239;
     box-shadow: 8px 3px 3px #d6ae85;
     padding: 10px 40px;
-    background-image: color(180deg,#d6ae85);
+    background-image: color(180deg,#d6ae85), left;
     box-sizing: content-box;
     width: 50%; 
     height: 30%;  
