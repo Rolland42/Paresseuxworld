@@ -1,15 +1,32 @@
 
  * {
   box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
 } 
 
 body {
   color: black;
-  background-image: linear-gradient(to right top, #d6ae85, #c39a71, #b1875e, #9e744b, #8c6239);
   text-align: center;
   font-family: "serif";
   padding: 10em;
+  background: #d6ae85; 
+  background: -webkit-linear-gradient(to left, #9e744b, #9e744b);  
+  
 }
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
 
 header{
   font-family:'serif';
@@ -18,6 +35,7 @@ header{
   margin-bottom: 80px;
   color: #FFFFFF;
   text-shadow: 1px 3px 0 black, 1px 13px 5px black;
+  
 }
 
 h2 {
@@ -93,3 +111,19 @@ p{
   line-height: 180%;
   color: white;
 }
+
+.context {
+  width: 100%;
+  position: absolute;
+  top:50vh;
+  
+}
+
+/*Fond*/
+.context h1{
+  text-align: center;
+  color: #fff;
+  font-size: 50px;
+}
+
+
